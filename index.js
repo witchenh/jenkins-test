@@ -7,5 +7,5 @@ app.get("/", (req, res) => {
 });
 
 module.exports = app.listen(process.env.PORT || 4000, () =>
-  console.log(`Running on http://localhost:4000 !!!`);
+  console.log(`Running on http://localhost:4000 !!!`)
 );
